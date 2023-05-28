@@ -1,0 +1,84 @@
+.main{
+    width:100%;
+    display:flex;
+    font-family:'Source Code Pro', monospace;
+    }
+    
+    .container{
+        width: 50%;
+        height: 100%;
+        background-color:#43a047;
+        padding: 15px;
+    }
+    .container{
+        width: 50%;
+        height: 100%;
+        background-color: #1f5768;
+        padding: 15px;
+    }
+.container h2{
+    width: 100%;
+    height:100%;
+    color: white;
+    float: left;
+    text-transform: uppercase;
+}
+.container p{
+    color: white;
+}
+
+.container p spam, ul li spam{
+    text-decoration: underline;
+    font font-weight:bold;
+    background-color:grey;
+    padding:2px;
+}
+
+ul{
+    color: white;
+}
+ul li{
+    padding-bottom: 10px;
+}
+
+.editor{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    display:inline-block;
+}
+.css{
+    background-color: grey;
+    float: left;
+    padding: 8px;
+}
+.numbers{
+    width: 4%;
+    height: 100%;
+    text-align: right;
+    background-color: antiquewhite;
+    color: white;
+}
+.input[type=text] {
+    margin-left: 30px;
+    width: 600px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: grey;
+    }
+    
+#pond {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #777;
+        }
+.input[type=submit] {
+    padding: 10px 15px 10px 15px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    opacity: 0.5;
+}      
